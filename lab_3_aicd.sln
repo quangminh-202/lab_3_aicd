@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab_3_aicd", "lab_3_aicd.vcxproj", "{3C78F903-944A-4E22-B851-B1B9A816D639}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C78F903-944A-4E22-B851-B1B9A816D639}.Debug|x64.ActiveCfg = Debug|x64
+		{3C78F903-944A-4E22-B851-B1B9A816D639}.Debug|x64.Build.0 = Debug|x64
+		{3C78F903-944A-4E22-B851-B1B9A816D639}.Debug|x86.ActiveCfg = Debug|Win32
+		{3C78F903-944A-4E22-B851-B1B9A816D639}.Debug|x86.Build.0 = Debug|Win32
+		{3C78F903-944A-4E22-B851-B1B9A816D639}.Release|x64.ActiveCfg = Release|x64
+		{3C78F903-944A-4E22-B851-B1B9A816D639}.Release|x64.Build.0 = Release|x64
+		{3C78F903-944A-4E22-B851-B1B9A816D639}.Release|x86.ActiveCfg = Release|Win32
+		{3C78F903-944A-4E22-B851-B1B9A816D639}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {795B2050-2A0E-4FF8-AD36-300742EF1659}
+	EndGlobalSection
+EndGlobal
