@@ -141,7 +141,7 @@ Stats calculateAverageStats(size_t arraySize, size_t numExperiments, std::vector
 int main() {
     const size_t numExperiments = 100;
 
-    for (size_t arraySize = 1000; arraySize <= 100000; arraySize += 1000) {
+     for (size_t arraySize : {1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 25000, 50000, 100000})  {
 
         Stats averageStatsRandom = calculateAverageStats<int>(arraySize, numExperiments, generateRandomArray, bubbleSort);
         Stats averageStatsShaker = calculateAverageStats<int>(arraySize, numExperiments, generateRandomArray, shakerSort);
